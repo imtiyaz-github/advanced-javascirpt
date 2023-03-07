@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#Project</title>
+</head>
+<body>
+
+<!-- chooose a expnseamout
+choose a descripiton
+choose a categpry
+button add expense---->
+
+<form onsubmit="saveToLocalStorage(event)">
+
+<div class="col-md-4">
+    <label for="choosea expenseamout">Choose a Expenseamount:</label>
+    <input type="text" class="form1" id="chooose expenseamout" required>
+
+
+    <label for="choose a descripiton">Choose a description:</label>
+    <input type="text" class="form2" id="chooose a descripiton" required>
+
+    <label for="choose a category">Choose a Category:</label>
+    
+    <select name="activity" id="choose a category">
+        <option value="movies">movies</option>
+        <option value="fuels">fuels</option>
+        <option value="water">water</option>
+    </select>
+</div>
+<br>
+
+<div class="col-12">
+    <button class="btn btn-primary" type="submit">Add Expense</button>
+</div>
+</form>
+
+<ol id="list"></ol>
+
+
+
+<script src="3hoursProject.js"></script>
+
+</body>
+</html>
